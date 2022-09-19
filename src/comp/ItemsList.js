@@ -1,7 +1,7 @@
 import React from "react";
 import Item from "./Item.js";
 
-export default function ItemsList(props) {
+function ItemsList(props) {
   return (
     <ul className="ui-list">
       {props.items.map((item) => (
@@ -18,3 +18,5 @@ export default function ItemsList(props) {
     </ul>
   );
 }
+
+export default ItemsList

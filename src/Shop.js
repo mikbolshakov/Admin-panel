@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import uuid from "react-uuid";
-import ItemsList from "../comp/ItemsList.js";
-import AddItem from "../comp/AddItem.js";
+import ItemsList from "./comp/ItemsList.js";
+import AddItem from "./comp/AddItem.js";
 
 export default function Shop() {
   const [items, setItems] = useState([]);

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AddItem(props) {
+function AddItem(props) {
   return (
     <>
       <form onSubmit={props.onFormSubmit}>
@@ -45,3 +45,5 @@ export default function AddItem(props) {
     </>
   );
 }
+
+export default AddItem
